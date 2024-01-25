@@ -148,3 +148,14 @@ img{
     border-bottom: 0.5px solid black;
     border-top: 0.5px solid black;
 }
+
+.site-footer{
+    background-color: var(--drop-dark);
+    color: var(--drop-lighter);
+    padding: 4rem 0 3rem 0;
+}
+
+.site-footer .container-l>div{
+    width: calc(100%/5);
+    flex-grow: 1;
+}
