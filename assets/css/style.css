@@ -3,6 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* #region Color Palette */
+:root{
+    --drop-primary: #B4D0E7;
+    --drop-btn: #0061FF;
+    --drop-dark: #000000;
+    --drop-lighter: #FFFFFF;
+    --drop-light: #F5F5F5;
+}
+/* #endregion Color Palette */
+
+/* #region Common */
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.d-flex{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+/* #endregion Common */
+/* Debug */
+.debug-h50{
+    height: 50px;
+}
+.site-header{
+    background-color: var(--drop-lighter);
+}
+
+.site-header nav{
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.left-header{
+    flex-grow: 1;
+    background-color: red;
+}
+
+.right-header{
+    flex-grow: 1;
+    background-color: blue;
+}
+
