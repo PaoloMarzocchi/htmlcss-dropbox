@@ -60,7 +60,26 @@ ul{
     background-color: var(--drop-primary);
 }
 
-
 .jumbotron img{
     width: 100%;
 }
+.plan-business{
+    padding:4rem 0;
+}
+
+.container-s{
+    width:55%;
+    background-color: red;
+    margin:auto;
+}
+.row{
+    justify-content: space-between;
+}
+
+.col{
+    height: 15rem;
+    width: 10rem;
+    background-color: blue;
+    border: 1px black;
+}
+
