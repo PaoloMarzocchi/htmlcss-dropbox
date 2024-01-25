@@ -140,3 +140,11 @@ img{
 .free-trial h2{
     width: 80%;
 }
+
+.faq li{
+    padding: 1rem 0;
+}
+.faq li:first-child, .faq li:last-child{
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
+}
