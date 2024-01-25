@@ -19,10 +19,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.d-flex{
-    display: flex;
-}
-
 ul{
     list-style: none;
 }
@@ -30,13 +26,12 @@ img{
     width: 100%;
 }
 /* #endregion Common */
-/* Debug */
-.debug-h50{
-    height: 50px;
-}
-/* /Debug */
 
 /* #region Utilities */
+.d-flex{
+    display: flex;
+}
+
 .p-4{
     padding: 4rem;
 }
@@ -47,23 +42,42 @@ img{
 /* #endregion Utilities */
 .site-header{
     background-color: var(--drop-lighter);
+    font-size: small;
+    position: fixed;
+    width:100%;
 }
 
 .site-header nav{
     width: 95%;
     margin: auto;
-    justify-content: space-between;
+}
+nav > div{
+    width:50%;
+    flex-grow: 1;
 }
 
-.left-header{
-    flex-grow: 1;
-    background-color: red;
+.left-header, .right-header{
+    align-items: center;
+}
+
+.left-header > div{
+    width: 6rem;
+}
+.left-header li, .left-header > div, .right-header li, .right-header > div{
+    padding: 0.5rem;
 }
 
 .right-header{
-    flex-grow: 1;
-    background-color: blue;
+    justify-content: end;
 }
+
+.right-header button{
+    padding: 0.3rem 0.5rem;
+    border: none;
+    background-color: var(--drop-btn);
+    color: var(--drop-lighter);
+}
+
 .container-l{
     width: 65%;
     margin: auto;
