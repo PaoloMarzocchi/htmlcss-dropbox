@@ -40,6 +40,10 @@ img{
 .p-4{
     padding: 4rem;
 }
+
+.wrap{
+    flex-wrap: wrap;
+}
 /* #endregion Utilities */
 .site-header{
     background-color: var(--drop-lighter);
@@ -114,4 +118,17 @@ img{
 .card.col-4{
     padding:2rem 1rem;
     margin:0 -1rem;
+}
+
+.container > div{
+    width: calc(100%/12*4);
+}
+
+.logos-left div{
+    width: 50%;
+    padding: 3rem;
+}
+.logos-right div{
+    width: 50%;
+    padding: 3rem;
 }
