@@ -32,6 +32,10 @@ img{
     display: flex;
 }
 
+.container-l{
+    width: 65%;
+    margin: auto;
+}
 .p-4{
     padding: 4rem;
 }
@@ -40,10 +44,13 @@ img{
     flex-wrap: wrap;
 }
 /* #endregion Utilities */
+
+/* #region Header */
 .site-header{
     background-color: var(--drop-lighter);
     font-size: small;
     position: fixed;
+    z-index: 1000;
     width:100%;
 }
 
@@ -77,17 +84,38 @@ nav > div{
     background-color: var(--drop-btn);
     color: var(--drop-lighter);
 }
-
-.container-l{
-    width: 65%;
-    margin: auto;
-}
+/* #endregion Header */
 
 .jumbotron {
-    height: 15rem;
     background-color: var(--drop-primary);
+    padding-top: 5rem;
 }
 
+.jumbotron h1{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.jumbotron .d-flex>div:last-child{
+    margin-bottom: -4rem;
+}
+.jumbotron .d-flex>div:first-child{
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: small;
+}
+.jumbotron button{
+    padding: 0.6rem 0.5rem;
+    border: none;
+    width: fit-content;
+    background-color: var(--drop-btn);
+    color: var(--drop-lighter);
+}
+
+.jumbotron i{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
 .plan-business{
     padding:4rem 0;
 }
