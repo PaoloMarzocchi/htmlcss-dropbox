@@ -132,3 +132,11 @@ img{
     width: 50%;
     padding: 3rem;
 }
+
+.free-trial{
+    background-color: var(--drop-primary);
+}
+
+.free-trial h2{
+    width: 80%;
+}
