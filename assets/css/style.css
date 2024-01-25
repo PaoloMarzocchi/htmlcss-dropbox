@@ -50,4 +50,17 @@ ul{
     flex-grow: 1;
     background-color: blue;
 }
+.container-l{
+    width: 65%;
+    margin: auto;
+}
 
+.jumbotron {
+    height: 15rem;
+    background-color: var(--drop-primary);
+}
+
+
+.jumbotron img{
+    width: 100%;
+}
