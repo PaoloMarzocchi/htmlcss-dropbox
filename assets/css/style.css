@@ -26,6 +26,9 @@ body{
 ul{
     list-style: none;
 }
+img{
+    width: 100%;
+}
 /* #endregion Common */
 /* Debug */
 .debug-h50{
@@ -67,9 +70,6 @@ ul{
     background-color: var(--drop-primary);
 }
 
-.jumbotron img{
-    width: 100%;
-}
 .plan-business{
     padding:4rem 0;
 }
@@ -102,4 +102,7 @@ ul{
 }
 .paragraph > div:last-child{
    flex-grow: 1;
+}
+.partner .d-flex {
+    flex-basis: 50%;
 }
