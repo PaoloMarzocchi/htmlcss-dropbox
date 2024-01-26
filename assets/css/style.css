@@ -251,18 +251,72 @@ nav > div{
     margin:0 -1rem;
 }
 /* #endregion Dropbox business */
+
+/* #region Teams */
+.team h2{
+    padding-bottom: 2rem;
+}
+
 .container > div{
     width: calc(100%/12*4);
 }
+.logos-left div, .logos-right div{
+    width: 50%;
+    padding: 3rem;
+    display: flex;
+    width: 50%;
+    aspect-ratio: 1;   
+    align-items: center;
+    justify-content: center; 
+}
+.logos-left{
+    & div:nth-child(1){
+        background-color: #A2D39B;
+    }
+    & div:nth-child(2){
+        background-color: #61082B;
+    }
+    & div:nth-child(3){
+        background-color: #0093CE;
+    }
+    & div:nth-child(4){
+        background-color: #FF1C1C;
+    }
+}
+.logos-center{
+    padding: 2rem;
+    background-color: var(--drop-light);
 
-.logos-left div{
-    width: 50%;
-    padding: 3rem;
+    & img{
+        width: 50%;
+        padding-bottom: 1rem;
+    }
+
+    & p, div{
+        padding: 1rem 0;
+    }
 }
-.logos-right div{
-    width: 50%;
-    padding: 3rem;
+
+.logos-right{
+    & div:nth-child(1){
+        background-color: #D5001F;
+    }
+    & div:nth-child(2){
+        background-color: #B4D0E7;
+    }
+    & div:nth-child(3){
+        background-color: #0D2481;
+    }
+    & div:nth-child(4){
+        background-color: #FFD830;
+    }
 }
+.logos-left img, .logos-right img{
+        filter: invert(100%);
+}
+
+
+/* #endregion Teams */
 
 .free-trial{
     background-color: var(--drop-primary);
