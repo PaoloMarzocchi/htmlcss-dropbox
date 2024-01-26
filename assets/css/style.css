@@ -224,10 +224,12 @@ nav > div{
 }
 /* #endregion Sales office */
 /* #endregion Business Plan */
-.partner .d-flex {
-    flex-basis: 50%;
-}
 
+/* #region Partner */
+.partner .width {
+    width:calc(100%/12 *8);
+}
+/* #endregion Partner */
 .col-4{
     width: calc(100%/12*4);
 }
