@@ -318,13 +318,21 @@ nav > div{
 
 /* #endregion Teams */
 
+/* #region Free trial */
 .free-trial{
     background-color: var(--drop-primary);
+
+    & button{
+        border: none;
+        padding: 0.5rem 1.5rem;
+    }
 }
 
 .free-trial h2{
     width: 80%;
+    color: #61082B;
 }
+/* #endregion Free trial */
 
 .faq li{
     padding: 1rem 0;
