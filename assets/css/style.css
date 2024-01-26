@@ -334,13 +334,22 @@ nav > div{
 }
 /* #endregion Free trial */
 
-.faq li{
-    padding: 1rem 0;
+/* #region FAQ */
+.faq h2{
+    padding-bottom: 2rem;
 }
+.faq li{
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
 .faq li:first-child, .faq li:last-child{
     border-bottom: 0.5px solid black;
     border-top: 0.5px solid black;
 }
+/* #endregion FAQ */
+
 /* #endregion Main */
 .site-footer{
     background-color: var(--drop-dark);
