@@ -150,7 +150,7 @@ nav>div {
 
 /* #region Business Plan */
 .plan-business {
-    padding: 7rem 0;
+    padding: 7rem 0 0 0;
 }
 
 .plan-business h2 {
@@ -168,7 +168,7 @@ nav>div {
 }
 
 .col {
-    width: 14rem;
+    width: calc(100% / 3 - 1rem);
     border: 1px solid lightgray;
 }
 
@@ -181,6 +181,8 @@ nav>div {
 
 .plan-info {
     padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .plan-info-top {
