@@ -117,10 +117,11 @@ nav>div {
 
 
 .site-header li{
+    position: relative;
     padding: 1rem 0.5rem;
-    transition: all 0.5s ease-in-out;
+    transition: box-shadow   0.5s ease-in-out;
 }
-.site-header li:hover {
+.site-header .d-flex>li:hover {
     box-shadow: inset 0px -3px var(--drop-btn);
 }
 
@@ -130,6 +131,24 @@ nav>div {
 .site-header .btn:hover{
     filter: opacity(0.5);
 }
+
+.site-header li>div{
+    display: none;
+    position: absolute;
+    left: 0;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 4px 3px var(--drop-btn);
+    background-color: var(--drop-lighter);
+    z-index: 1;
+    top: 3.1rem;
+    border-left: 1px solid var(--drop-btn);
+    text-align: center;    
+}
+
+.site-header li:hover > div{
+    display:block;
+}
+   
 /* #endregion Header */
 
 /* #region Main */
